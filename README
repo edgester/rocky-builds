@@ -15,3 +15,6 @@ packages                   # list of all available packages
 README
 requires/                  # directory that contains a list of each packages build dependencies, on file per package
 source-pkg-list            # list of all source packages available via dnf
+package-graph.gv           # A Graphviz file that graphs the build dependcy order
+package-graph.gv.svg       # Graph of the build dependencies. items on left
+                             must be built before the ones on the right.

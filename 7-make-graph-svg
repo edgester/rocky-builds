@@ -1,0 +1,2 @@
+#!/bin/bash
+dot -Tsvg -O ./package-graph.gv
